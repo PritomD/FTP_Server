@@ -25,18 +25,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="template2/css/animate.css">
+	<link rel="stylesheet" href="{{asset('template2')}}/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="template2/css/icomoon.css">
+	<link rel="stylesheet" href="{{asset('template2')}}/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="template2/css/bootstrap.css">
+	<link rel="stylesheet" href="{{asset('template2')}}/css/bootstrap.css">
 	<!-- Superfish -->
-	<link rel="stylesheet" href="template2/css/superfish.css">
+	<link rel="stylesheet" href="{{asset('template2')}}/css/superfish.css">
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="template2/css/flexslider.css">
-	<link rel="stylesheet" href="template2/css/style.css">
+	<link rel="stylesheet" href="{{asset('template2')}}/css/flexslider.css">
+	<link rel="stylesheet" href="{{asset('template2')}}/css/style.css">
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="{{asset('template2')}}/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -51,7 +51,7 @@
 						<div class="container">
 							<div class="nav-header">
 								<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-								<h1 id="fh5co-logo"><a><i class="icon-home2"></i>JVY</a></h1>
+								<h1 id="fh5co-logo"><a><i class="icon-home2"></i>FTP-SERVER	</a></h1>
 								<!-- START #fh5co-menu-wrap -->
 								<nav id="fh5co-menu-wrap" role="navigation">
 									<ul class="sf-menu" id="fh5co-primary-menu">
@@ -120,7 +120,7 @@
 				<aside id="fh5co-hero" class="js-fullheight">
 					<div class="flexslider js-fullheight">
 						<ul class="slides">
-							<li style="background-image: url(assets/images/slide_1.jpg);">
+							<li style="background-image: url(template2/images/slide_1.jpg);">
 								<div class="overlay-gradient"></div>
 								<div class="container">
 									<div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
@@ -133,7 +133,7 @@
 									</div>
 								</div>
 							</li>
-							<li style="background-image: url(assets/images/slide_2.jpg);">
+							<li style="background-image: url(template2/images/slide_2.jpg);">
 								<div class="overlay-gradient"></div>
 								<div class="container">
 									<div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
@@ -146,7 +146,7 @@
 									</div>
 								</div>
 							</li>
-							<li style="background-image: url(assets/images/slide_3.jpg);">
+							<li style="background-image: url(template2/images/slide_3.jpg);">
 								<div class="overlay-gradient"></div>
 								<div class="container">
 									<div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
@@ -204,19 +204,19 @@
 			<!-- END fh5co-wrapper -->
 		</div>
 		<!-- jQuery -->
-		<script src="template2/js/jquery.min.js"></script>
+		<script src="{{asset('template2')}}/js/jquery.min.js"></script>
 		<!-- jQuery Easing -->
-		<script src="template2/js/jquery.easing.1.3.js"></script>
+		<script src="{{asset('template2')}}/js/jquery.easing.1.3.js"></script>
 		<!-- Bootstrap -->
-		<script src="template2/js/bootstrap.min.js"></script>
+		<script src="{{asset('template2')}}/js/bootstrap.min.js"></script>
 		<!-- Waypoints -->
-		<script src="template2/js/jquery.waypoints.min.js"></script>
+		<script src="{{asset('template2')}}/js/jquery.waypoints.min.js"></script>
 		<!-- Superfish -->
-		<script src="template2/js/hoverIntent.js"></script>
-		<script src="template2/js/superfish.js"></script>
+		<script src="{{asset('template2')}}/js/hoverIntent.js"></script>
+		<script src="{{asset('template2')}}/js/superfish.js"></script>
 		<!-- Flexslider -->
-		<script src="template2/js/jquery.flexslider-min.js"></script>
+		<script src="{{asset('template2')}}/js/jquery.flexslider-min.js"></script>
 		<!-- Main JS (Do not remove) -->
-		<script src="template2/js/main.js"></script>
+		<script src="{{asset('template2')}}/js/main.js"></script>
 	</body>
 </html>
