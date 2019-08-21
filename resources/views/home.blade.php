@@ -12,7 +12,7 @@
 		<h1><a href="#">Admin</a></h1>
 		
 		<h2><li><a href="{{ route('login.index') }}">Login</a> ||
-		<a href="{{ route('signup') }}">Registration</a></h2>
+		<a href="{{ route('admin.signup') }}">Registration</a></h2>
 		
 		<h1><a href="#">Moderator</a></h1>
 		<h2><a href="/moderatorlogin">Login</a> ||
