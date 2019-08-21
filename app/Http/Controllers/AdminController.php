@@ -10,8 +10,13 @@ class AdminController extends Controller
 {
     public function index(Request $request){
 
-    	return view('signup.index');
+    	return view('admin.index');
     }
+
+	public function home(Request $request){
+
+    	return view('admin.home');
+    }    
 
     public function store(Request $request)
     {
