@@ -10,4 +10,9 @@ class HomeController extends Controller
 
     	return view('home');
     }
+
+    public function memberhome(Request $request){
+
+    	return view('member/index');
+    }
 }
