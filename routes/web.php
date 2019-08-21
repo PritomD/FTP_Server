@@ -21,10 +21,10 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('member/index', 'HomeController@memberhome')->name('member.index');
 
-Route::get('admin/index', 'AdminController@index')->name('adminsignup');
+Route::get('admin/index', 'AdminController@index')->name('admin.signup');
 Route::post('admin/index', 'AdminController@store');
 
-Route::get('admin/home', 'AdminController@')
+Route::get('admin/home', 'AdminController@home')->name('admin.home');
 
 Route::get('/login', 'LoginController@index')->name('login.index');
 Route::post('/login', 'LoginController@verify')->name('login.verify');
