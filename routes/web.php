@@ -19,12 +19,14 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('member/index', 'HomeController@memberhome')->name('member.index');
+Route::get('member/index', 'MemberController@memberhome')->name('member.index');
 
 Route::get('admin/index', 'AdminController@index')->name('admin.signup');
 Route::post('admin/index', 'AdminController@store');
 
 Route::get('admin/home', 'AdminController@home')->name('admin.home');
+
+Route::get('member/banglamoviecontent', 'MemberController@banglamovie')->name('member.banmovie');
 
 Route::get('/login', 'LoginController@index')->name('login.index');
 Route::post('/login', 'LoginController@verify')->name('login.verify');
