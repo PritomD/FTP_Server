@@ -65,7 +65,7 @@
 												<li>
 													<a href="#" class="fh5co-sub-ddown">Movies</a>
 													<ul class="fh5co-sub-menu">
-														<li><a href="/memberhome/viewcontentmem">Bangla</a></li>
+														<li><a href="{{ route('member.banmovie')}}">Bangla</a></li>
 														<li><a href="/memberhome/hindiviewcontentmem" >Hindi</a></li>
 														<li><a href="/memberhome/englishviewcontentmem">English</a></li>
 														
