@@ -25,16 +25,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="template2/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="assets/css/icomoon.css">
+	<link rel="stylesheet" href="template2/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="template2/css/bootstrap.css">
 	<!-- Superfish -->
-	<link rel="stylesheet" href="assets/css/superfish.css">
+	<link rel="stylesheet" href="template2/css/superfish.css">
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="assets/css/flexslider.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="template2/css/flexslider.css">
+	<link rel="stylesheet" href="template2/css/style.css">
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -204,19 +204,19 @@
 			<!-- END fh5co-wrapper -->
 		</div>
 		<!-- jQuery -->
-		<script src="assets/js/jquery.min.js"></script>
+		<script src="template2/js/jquery.min.js"></script>
 		<!-- jQuery Easing -->
-		<script src="assets/js/jquery.easing.1.3.js"></script>
+		<script src="template2/js/jquery.easing.1.3.js"></script>
 		<!-- Bootstrap -->
-		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="template2/js/bootstrap.min.js"></script>
 		<!-- Waypoints -->
-		<script src="assets/js/jquery.waypoints.min.js"></script>
+		<script src="template2/js/jquery.waypoints.min.js"></script>
 		<!-- Superfish -->
-		<script src="assets/js/hoverIntent.js"></script>
-		<script src="assets/js/superfish.js"></script>
+		<script src="template2/js/hoverIntent.js"></script>
+		<script src="template2/js/superfish.js"></script>
 		<!-- Flexslider -->
-		<script src="assets/js/jquery.flexslider-min.js"></script>
+		<script src="template2/js/jquery.flexslider-min.js"></script>
 		<!-- Main JS (Do not remove) -->
-		<script src="assets/js/main.js"></script>
+		<script src="template2/js/main.js"></script>
 	</body>
 </html>
