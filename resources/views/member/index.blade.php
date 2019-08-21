@@ -120,7 +120,7 @@
 				<aside id="fh5co-hero" class="js-fullheight">
 					<div class="flexslider js-fullheight">
 						<ul class="slides">
-							<li style="background-image: url(template2/images/slide_1.jpg);">
+							<li style="background-image: url({{asset('template2/')}}images/slide_1.jpg);">
 								<div class="overlay-gradient"></div>
 								<div class="container">
 									<div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
@@ -133,7 +133,7 @@
 									</div>
 								</div>
 							</li>
-							<li style="background-image: url(template2/images/slide_2.jpg);">
+							<li style="background-image: url({{asset('template2')}}/images/slide_2.jpg);">
 								<div class="overlay-gradient"></div>
 								<div class="container">
 									<div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
@@ -146,7 +146,7 @@
 									</div>
 								</div>
 							</li>
-							<li style="background-image: url(template2/images/slide_3.jpg);">
+							<li style="background-image: url({{asset('template2')}}/images/slide_3.jpg);">
 								<div class="overlay-gradient"></div>
 								<div class="container">
 									<div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
