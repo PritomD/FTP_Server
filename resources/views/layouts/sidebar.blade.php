@@ -33,7 +33,7 @@
         <!-- Optionally, you can add icons to the links -->
         <li class=""><a href="{{ route('dashboard') }}"><i class="fa fa-link"></i> <span>Home</span></a></li>
         {{-- <li><a href="{{ url('employee-management') }}"><i class="fa fa-link"></i> <span>Employee Management</span></a></li> --}}
-        <li class="treeview">
+        {{-- <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>System Management</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -42,13 +42,13 @@
           <ul class="treeview-menu">
             <li><a href="{{ url('system-management/report') }}">Report</a></li>
           </ul>
-        </li>
+        </li> --}}
         @if ($user->usertype == 'admin')
           {{-- expr --}}
         
         <li><a href="{{ route('user-management.index') }}"><i class="fa fa-link"></i> <span>User management</span></a></li>
         @endif
-        <li class=""><a href="{{ url('user-management/uploadbal') }}"><i class="fa fa-link"></i> <span>Upload Balance</span></a></li>
+        {{-- <li class=""><a href="{{ url('user-management/uploadbal') }}"><i class="fa fa-link"></i> <span>Upload Balance</span></a></li> --}}
       </ul>
       <!-- /.sidebar-menu -->
     </section>
