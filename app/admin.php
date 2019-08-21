@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class admin extends Model
 {
     protected $table = 'admin';
-    // protected $primaryKey = 'id';
+    protected $primaryKey = 'id';
     public $timestamps = false;
 }
