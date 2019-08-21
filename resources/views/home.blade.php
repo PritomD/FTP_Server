@@ -17,7 +17,7 @@
 		<h1><a href="#">Moderator</a></h1>
 		<h2><a href="/moderatorlogin">Login</a> ||
 		<a href="/moderatorregister">Registration</a></h2>
-		<h1><a href="/memberlogin">Member</a></h1>
+		<h1><a href="{{ route('member.index') }}">Member</a></h1>
 		<h1><a href="/request">Request Box</a></h1>
 		
 		
